@@ -1,12 +1,12 @@
 <?php
-var_dump($_POST);
+// var_dump($_POST); used for debugging
 require_once "dbConnection.php";
 
 if(isset($_POST['submit']))
 {
     $userName = $_POST['name'];
     $sql = "INSERT INTO demo(Name) VALUES('$userName')";
-     echo "Debug SQL Query: $sql";
+    //  echo "Debug SQL Query: $sql";  
     $result = mysqli_query($conn,$sql);
     if($result)
     {
