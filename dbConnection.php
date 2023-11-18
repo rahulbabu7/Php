@@ -15,9 +15,10 @@ if($conn)
 }
 else{
     die("Connection failed: " .mysqli_connect_error());
+    exit();
 }
 
-mysqli_close($conn);
+
 
 //! 2nd method
 
