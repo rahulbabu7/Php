@@ -15,12 +15,12 @@ if(isset($_POST['submit']))
     else{
          print("Some error" .mysqli_error($conn));
     }
-    mysqli_close($conn);
+    
 }
 else{
     print("Enter some data and submit<br>");
 }
-
+mysqli_close($conn);
 
 
 
