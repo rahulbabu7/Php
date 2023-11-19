@@ -46,11 +46,11 @@ if(isset($_POST['submit']))
     )";
 
 
-print("$sql");
+// print("$sql");
     $result1 = mysqli_query($conn,$sql);
     if($result1)
     {
-        print("hii");
+        // print("hii");
         print("data added<br>");
         // header("Location: Registration.php");
         // exit();
