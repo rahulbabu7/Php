@@ -8,7 +8,7 @@
 <body>
     <?php
 
-print("Done");
+print("SUCCESSFULLY REGISTERED");
 ?>
 </body>
 </html>
